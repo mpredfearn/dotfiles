@@ -1,0 +1,12 @@
+[user]
+        name = AUTHORNAME
+        email = AUTHOREMAIL
+[credential]
+        helper = GIT_CREDENTIAL_HELPER
+
+[sendemail]
+	smtpserver =  SMTPSERVER
+	smtpserverport = SMTOPORT
+	smtpencryption = SMTPAUTH
+	smtpuser = SMTPUSER
+	confirm = always
