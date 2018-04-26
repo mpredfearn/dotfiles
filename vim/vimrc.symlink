@@ -1,0 +1,6 @@
+
+filetype indent plugin on
+
+au FileType gitcommit setlocal nojoinspaces
+
+set colorcolumn=80
