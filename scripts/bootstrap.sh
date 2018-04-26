@@ -135,6 +135,11 @@ install_dotfiles () {
     dst="$HOME/.$(basename "${src%.*}")"
     link_file "$src" "$dst"
   done
+
+  # Awesome is a special case
+  dst="$HOME/.config/"
+  mkdir -p "$dst"
+  link_file "$DOTFILES_ROOT/awesome" "$dst/awesome"
 }
 
 setup_gitconfig
