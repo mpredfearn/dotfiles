@@ -1,6 +1,8 @@
 
 filetype indent plugin on
 
-au FileType gitcommit setlocal nojoinspaces
+au FileType gitcommit setlocal nojoinspaces tw=72
+
+au FileType hgcommit setlocal nojoinspaces tw=72
 
 set colorcolumn=80
