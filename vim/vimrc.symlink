@@ -6,3 +6,5 @@ au FileType gitcommit setlocal nojoinspaces tw=72
 au FileType hgcommit setlocal nojoinspaces tw=72
 
 set colorcolumn=80
+
+set number
