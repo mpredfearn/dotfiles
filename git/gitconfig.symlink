@@ -1,6 +1,9 @@
 [include]
 	path = ~/.gitconfig.local
 
+[fetch]
+	prune = true
+
 [push]
 	default = nothing
 
